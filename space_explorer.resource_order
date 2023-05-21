@@ -13,13 +13,17 @@
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
+    {"name":"spr_enemy_group","order":4,"path":"folders/Sprites/spr_enemy_group.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_enemy_type4","order":5,"path":"sprites/spr_enemy_type4/spr_enemy_type4.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"spr_rock_big","order":2,"path":"sprites/spr_rock_big/spr_rock_big.yy",},
+    {"name":"spr_enemy_type2","order":1,"path":"sprites/spr_enemy_type2/spr_enemy_type2.yy",},
     {"name":"Object_bullet","order":1,"path":"objects/Object_bullet/Object_bullet.yy",},
     {"name":"Object_rock","order":2,"path":"objects/Object_rock/Object_rock.yy",},
     {"name":"Object_game","order":3,"path":"objects/Object_game/Object_game.yy",},
+    {"name":"spr_enemy_type3","order":2,"path":"sprites/spr_enemy_type3/spr_enemy_type3.yy",},
     {"name":"spr_rock_small","order":3,"path":"sprites/spr_rock_small/spr_rock_small.yy",},
   ],
 }

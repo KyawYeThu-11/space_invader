@@ -1,8 +1,8 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_bullet",
-  "bbox_bottom": 7,
+  "name": "spr_boss1_laser",
+  "bbox_bottom": 23,
   "bbox_left": 0,
   "bbox_right": 7,
   "bbox_top": 0,
@@ -13,17 +13,17 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dbc1ad7e-01de-4847-8cea-c163a5caec2f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"44e88737-f764-46b0-907a-220fbaa535f4",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 8,
+  "height": 24,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6fb7ac3d-c0fb-48a7-8923-be07a29e30ec","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"809f95d1-35ba-4098-b329-03d439fc3498","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 0,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_bullet",
+    "name": "spr_boss1_laser",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,13 +54,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"dbc1ad7e-01de-4847-8cea-c163a5caec2f","path":"sprites/spr_bullet/spr_bullet.yy",},},},"Disabled":false,"id":"d4c7c410-a040-4dff-aef5-b6225416800e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"44e88737-f764-46b0-907a-220fbaa535f4","path":"sprites/spr_boss1_laser/spr_boss1_laser.yy",},},},"Disabled":false,"id":"c4ca21c3-cd5f-4c7e-aba9-6f08a319f84b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 4,
-    "yorigin": 4,
+    "xorigin": 0,
+    "yorigin": 0,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

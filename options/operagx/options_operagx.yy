@@ -1,0 +1,18 @@
+{
+  "resourceType": "GMOperaGXOptions",
+  "resourceVersion": "1.0",
+  "name": "operagx",
+  "option_operagx_display_cursor": true,
+  "option_operagx_editUrl": "https://create.gx.games/game/39c7ca0d-84cf-41be-baac-59bf28a68f55/edit",
+  "option_operagx_game_name": "KAIST Space Invaders",
+  "option_operagx_guid": "39c7ca0d-84cf-41be-baac-59bf28a68f55",
+  "option_operagx_internalShareUrl": "",
+  "option_operagx_interpolate_pixels": true,
+  "option_operagx_next_version": "0.0.0.2",
+  "option_operagx_publicShareUrl": "",
+  "option_operagx_scale": 1,
+  "option_operagx_team_id": "ea63b32b-87c1-49eb-a740-fdbdd512c0cd",
+  "option_operagx_team_name": "Kyaw-Ye-Thu studio",
+  "option_operagx_texture_page": "2048x2048",
+  "option_operagx_version": "0.0.0.1",
+}

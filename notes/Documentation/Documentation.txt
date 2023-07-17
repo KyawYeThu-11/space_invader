@@ -1,0 +1,104 @@
+21. Zaya (18th June)
+- Fixed not planned hitting function in boss3
+
+
+18. Ye Thu (15th June)
+Changes
+- Highscores_functions have been refactored so that the functions can also be used for saving timestamps
+- The title design of highscore board is changed
+- Highscore room is changed to main menu only when the user click "GO BACK TO MAIN MENU" instead of timing out
+
+Additions
+- Achievement option added in the main menu
+- Scores displayed alongside their timestamps
+- Each line of scores can be selected
+- A soundeffect played everytime an option is switched
+
+12. Zaya (4th June)
+-Uploaded boss3 sprite
+-Object sound effect
+
+10. Zaya (3rd June)
+-Uploaded Boss3
+
+9. Zaya (2nd June)
+- Uploaded Boss2
+
+6. Zaya (28th May)
+- Uploaded Boss1
+
+
+5. Dogi (28th May)
+Changes!
+changes obj_Room_Setup -> it is divided in 3 to make the sequential transition effect work
+needs to recheck the position of the player_ship and enemy spawning
+some bckg sprite name and assignment change
+some sprite animatings 
+
+Additions
+- Sequences -> phase_transitions -> initial and ending player ship sequences AND phrase sequence
+- Objects for those sequences (for sequences and for transitions)
+
+Notice
+- Needs to manually set up player_ship position for sequence after fixing the position
+
+4. Ye Thu (27th May)
+Additions 
+- spawning enemies and switching rooms when all of them die work now!
+
+Changes
+- Obj_spawner_enemies file is changed
+
+Notice
+- The enemies are chosen at random, but the distibution is not even.
+
+3. Ahmed (May 24th)
+Additions
+-Added sprites to the objects
+-Added the 4th object
+
+Changes
+- phase 1 is kind of completed with the layout and stuff
+
+2. Dogi (May 23rd)
+
+Additions
+- backgrounds that constantly move for each phases
+
+Changes
+- now the enemy sprites are 64pixels x 64pixels (i can do other sizes too, if needed)
+
+Notice
+- Pls do not change the order of bckg in phase 1 - it does the job only that way
+- Pls tell me whatever that needs to be done for you by the 'room person' -half is me
+	I will try to do it as quick as possible but you need to tell me first cuz I am not very knowledgable in
+	how the things are depending on each other
+	
+
+1. Ye Thu (22th May)
+
+Additions
+- Main menu
+- Pause menu
+- Transitions between each phase room
+
+Changes
+- Change the name of the layer, "Instance_1" into "Instances" in rm_Main
+(to be consistent with the default "Instances" layer when a new room is created)
+- Comment out camera_set_view_size() code in the Create event of obj_Camera
+(otherwise it isn't compatiable with the size of the pause menu and main menu animations)
+
+
+Notice for others
+- Since the enemies are moving in each phase
+- In each phase room
+	- There must be obj_game_manager object in Instances layer for the pause menu to work
+	- There must be Bullets layer
+- The main code for transition between rooms can be found in obj_Enemy object.
+- rm_Init: You won't see this room because it contains obj_init object, which set things up
+	and then move to rm_main_menu room
+- The order of rooms is important because I've linked according to the order
+
+Ahmed 29 May
+-Added Compositions
+-Dynamic Player movement
